@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 #import selenium.webdriver.support.ui as ui
 from selenium.webdriver.common.keys import Keys
-driver=webdriver.Chrome("C:/Program Files (x86)/Google/Chrome/chromedriver.exe")
+driver=webdriver.Chrome("chromedriver.exe")
 driver.maximize_window()
 driver.get("http://oa.58.com.cn")
 password=input("是否已经登录58盾与oa账号密码（是/否）：")
